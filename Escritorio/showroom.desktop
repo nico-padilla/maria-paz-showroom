@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MARIA PAZ by CHARA
+Comment=Gestor de ventas y cuentas
+Exec=bash -c "cd /home/nico && python3 server.py & sleep 2 && xdg-open http://localhost:5000"
+Icon=/home/nico/maria_paz_icon.svg
+Type=Application
+Terminal=false
+

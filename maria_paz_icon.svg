@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .text { font-family: Arial, sans-serif; font-weight: bold; text-anchor: middle; fill: white; }
+      .text-main { font-size: 18px; }
+      .text-sub { font-size: 10px; }
+    </style>
+  </defs>
+  
+  <!-- Fondo negro -->
+  <rect width="200" height="200" fill="black" rx="20"/>
+  
+  <!-- Línea decorativa -->
+  <line x1="30" y1="80" x2="170" y2="80" stroke="white" stroke-width="2"/>
+  <line x1="30" y1="120" x2="170" y2="120" stroke="white" stroke-width="2"/>
+  
+  <!-- Textos -->
+  <text x="100" y="105" class="text text-main">MARIA PAZ</text>
+  <text x="100" y="135" class="text text-sub">by CHARA SHOWROOM</text>
+</svg>
