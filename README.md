@@ -42,6 +42,17 @@ python3 server.py
 http://localhost:5000
 ```
 
+### Despliegue fácil con Replit
+1. Ve a https://replit.com/ y crea una cuenta si no tenés.
+2. Importa este repositorio desde GitHub.
+3. Replit usará `.replit` y `requirements.txt` para ejecutar:
+```bash
+bash -lc 'pip install -r requirements.txt && gunicorn server:app'
+```
+4. Cuando el proyecto arranque, Replit te mostrará una URL pública.
+
+Si querés, te ayudo a importar el repo en Replit paso a paso.
+
 ## 💻 Uso
 
 ### Registrar una venta
